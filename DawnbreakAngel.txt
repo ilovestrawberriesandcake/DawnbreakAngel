@@ -1,0 +1,6 @@
+setInterval(() => {
+    let selectedText = window.getSelection().toString();
+    if (selectedText) {
+        console.log("SELECTED TEXT:", selectedText);
+    }
+}, 2000);
